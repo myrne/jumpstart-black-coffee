@@ -1,1 +1,1 @@
-# Black Coffee: CoffeeScript NPM Module boilerplate
+# black-coffee: Plain CoffeeScript NPM Module boilerplate
