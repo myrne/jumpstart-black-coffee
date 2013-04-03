@@ -21,5 +21,5 @@ engines:
 main: "lib/---module-name---.js"
 scripts:
   prepublish: "npm test"
-  pretest: "cake build"
+  pretest: "make build"
   test: "make test"
