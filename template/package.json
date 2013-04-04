@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/---github-username---/---module-name---.git"
   },
-  "private": true,
+  "private": ---module-is-private---,
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
