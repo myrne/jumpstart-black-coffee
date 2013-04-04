@@ -1,0 +1,23 @@
+{
+  "name": "jumpstart-black-coffee",
+  "version": "0.0.1",
+  "description": "Jumpstart template for a plain CoffeeScript npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stellarpad/black-coffee.git"
+  },
+  "keywords": [
+    "coffeescript",
+    "boilerplate",
+    "template",
+    "jumpstart"
+  ],
+  "author": "Meryn Stol <merynstol@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "readme.md",
+  "gitHead": "d67e529a687e00a71ca739e2004ea86c4165ef4e"
+}

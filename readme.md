@@ -1,1 +1,1 @@
-# black-coffee: Plain CoffeeScript NPM Module boilerplate
+# black-coffee: Jumpstart template for a plain CoffeeScript npm module
