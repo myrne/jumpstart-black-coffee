@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stellarpad/black-coffee.git"
+    "url": "git://github.com/meryn/jumpstart-black-coffee.git"
   },
   "keywords": [
     "coffeescript",
