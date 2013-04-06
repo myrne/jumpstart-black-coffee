@@ -3,6 +3,8 @@
   "version": "0.0.5",
   "description": "Jumpstart template for a plain CoffeeScript npm module",
   "main": "index.js",
+  "bugs": "https://github.com/meryn/jumpstart-black-coffee/issues",
+  "homepage": "https://github.com/meryn/jumpstart-black-coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
