@@ -12,7 +12,10 @@
   },
   "private": ---module-is-private---,
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "~1.9.0"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "---node-version---",
