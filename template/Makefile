@@ -20,3 +20,5 @@ jumpstart:
 	git add .
 	git commit -m "---commit-message---"
 	git push -u origin master
+
+.PHONY: test
