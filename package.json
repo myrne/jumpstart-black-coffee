@@ -1,6 +1,6 @@
 {
   "name": "jumpstart-black-coffee",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Jumpstart template for a plain CoffeeScript npm module",
   "main": "index.js",
   "bugs": "https://github.com/meryn/jumpstart-black-coffee/issues",
