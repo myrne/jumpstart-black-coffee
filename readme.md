@@ -25,7 +25,9 @@ Jumpstart looks for a `.jumpstart.json` file inside your current working directo
 
 ### Starting a new project
 
-```jumpstart dirname black-coffee```
+```
+jumpstart dirname black-coffee
+```
 
 You will be asked to provide values for the placeholders inside the `black-coffee` template. Jumpstart then creates a new directory `dirname` containing the filled-out template.
 
@@ -39,7 +41,9 @@ After creating a new project it's recommended you run the following command once
 
 ### Initalizing the new project
 
-```make jumpstart```
+```
+make jumpstart
+```
 
 This command
 
