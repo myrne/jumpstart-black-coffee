@@ -3,7 +3,7 @@ build:
 	coffee --compile -m --output lib/ src/
 
 watch:
-	coffee --watch --require coffeescript-growl --compile --output lib/ src/
+	coffee --watch --compile --output lib/ src/
 	
 test:
 	true
