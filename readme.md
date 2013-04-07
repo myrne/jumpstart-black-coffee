@@ -4,8 +4,9 @@ Jumpstart template for an npm module written in CoffeeScript, but published as J
 
 This template assumes
 
-* you're using github
-* you want the github repository name to be the same as the npm module name
+* you're using GitHub
+* you want the GitHub repository name to be the same as the npm module name
+* you want to use [Mocha](http://visionmedia.github.io/mocha/) for writing tests, or you don't mind having it available
 * you want to release your code under the [MIT License](http://opensource.org/licenses/MIT).
 
 If you don't like these assumptions, or any other choices made, you can easily customize the template by forking it and checking out locally.
@@ -17,10 +18,10 @@ npm install jumpstart-black-coffee
 ```
 
 ## Configuration
-Jumpstart looks for a .jumpstart.json file inside your current working directory - or if not found, in your home directory - for global values for the various placeholders.
+Jumpstart looks for a `.jumpstart.json` file inside your current working directory - or if not found, in your home directory - for global values for the various placeholders.
 
 ## Usage
-`jumpstart dirname black-coffee` will first ask for values for placeholders inside the black-coffee template, then create a new directory dirname containing the filled-out template.
+`jumpstart dirname black-coffee` will first ask for values for placeholders inside the `black-coffee` template, then create a new directory `dirname` containing the filled-out template.
 
 Notes on proper placeholders values:
 
@@ -33,11 +34,15 @@ After creating a new project you can run the following commands:
 * `make build` -- compiles all .coffee files in src/ and outputs into lib/.
 * `make watch` -- watches src/ for changes, and compiles any changed .coffee file to lib/.
 * `make jumpstart` -- 
-  * creates a github repo with the specified module name in the specified repos path (for your organization or for yourself)
-  * initializes empty git repository
-  * sets github repo as origin
-  * adds files, and commits with specified commit-message
-  * pushes the repository to github
+  * runs `npm install`, which will install the dev-dependencies (coffee-script and mocha)
+  * creates a GitHub repo with the specified module name in the specified repos path (for your organization or for yourself)
+  * initializes an empty git repository
+  * sets the GitHub repository as the local repository's origin
+  * creates an empty .coffee file named after the module in both src/ and test/.
+  * adds files, and commits with the commit-message you have chosen
+  * pushes the repository to GitHub
+  
+Note that running `make jumpstart` afterwards is entirely optional. You could also decide to customize the generated Makefile before running the command.
 
 ## License
 
