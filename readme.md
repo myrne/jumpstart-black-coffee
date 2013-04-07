@@ -23,7 +23,9 @@ Jumpstart looks for a `.jumpstart.json` file inside your current working directo
 
 ## Usage
 
-`jumpstart dirname black-coffee` 
+### Starting a new project
+
+```jumpstart dirname black-coffee```
 
 You will be asked to provide values for the placeholders inside the `black-coffee` template. Jumpstart then creates a new directory `dirname` containing the filled-out template.
 
@@ -35,7 +37,9 @@ Notes on proper placeholders values:
 
 After creating a new project it's recommended you run the following command once:
 
-`make jumpstart`
+### Initalizing the new project
+
+```make jumpstart```
 
 This command
 
@@ -49,13 +53,17 @@ This command
 
 Running `make jumpstart` afterwards is entirely optional. You could also decide to customize the generated Makefile before running the command.
 
+### Conveniences during development
+
 During development, you can make use of the following commands.
 
   * `make build` -- compiles all .coffee files in src/ and outputs into lib/.
   * `make watch` -- watches src/ for changes, and compiles any changed .coffee file to lib/.
-  * `make test` -- runs local 
+  * `make test` -- runs mocha tests
 
-These commands require the dev dependencies to be installed. You can do so with `npm install`.  
+These commands require the dev-dependencies to be installed. You can do so with `npm install`.
+
+When you do `npm publish`, the CoffeeScript files will be compiled and all tests will be run, ensuring that the JavaScript code you're publishing is both fresh and working (in so far they're covered by tests).
 
 See also the [Jumpstart documentation](https://github.com/meryn/jumpstart).
 
