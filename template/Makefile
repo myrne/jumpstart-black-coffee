@@ -6,7 +6,7 @@ watch:
 	node_modules/.bin/coffee --watch --compile --output lib/ src/
 	
 test:
-	true
+	node_modules/.bin/mocha
 
 jumpstart:
 	curl -u '---github-username---' https://api.github.com---github-repos-path--- -d '{"name":"---module-name---", "description":"---module-description---","private":---module-is-private---}'
