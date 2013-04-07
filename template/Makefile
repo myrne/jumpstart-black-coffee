@@ -1,9 +1,9 @@
 build:
 	mkdir -p lib
-	coffee --compile -m --output lib/ src/
+	node_modules/.bin/coffee --compile -m --output lib/ src/
 
 watch:
-	coffee --watch --compile --output lib/ src/
+	node_modules/.bin/coffee --watch --compile --output lib/ src/
 	
 test:
 	true
