@@ -17,6 +17,6 @@ jumpstart:
 	touch test/---module-name---.coffee
 	git init
 	git remote add origin git@github.com:---github-ownername---/---module-name---
-	git add *
+	git add .
 	git commit -m "---commit-message---"
 	git push -u origin master
