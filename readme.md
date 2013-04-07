@@ -12,7 +12,8 @@ This template assumes
 If you don't like these assumptions, or any other choices made, you can easily customize the template by forking it and checking out locally.
 
 ## Installation
-```
+
+```shell
 npm install jumpstart
 npm install jumpstart-black-coffee
 ```
@@ -21,7 +22,10 @@ npm install jumpstart-black-coffee
 Jumpstart looks for a `.jumpstart.json` file inside your current working directory - or if not found, in your home directory - for global values for the various placeholders.
 
 ## Usage
-`jumpstart dirname black-coffee` will first ask for values for placeholders inside the `black-coffee` template, then create a new directory `dirname` containing the filled-out template.
+
+`jumpstart dirname black-coffee` 
+
+You will be asked to provide values for the placeholders inside the `black-coffee` template. Jumpstart then creates a new directory `dirname` containing the filled-out template.
 
 Notes on proper placeholders values:
 
@@ -29,11 +33,12 @@ Notes on proper placeholders values:
 * `github-owner-name` -- either the same as `github-username`, or your github organization name.
 * `module-is-private` -- either the string `true` or the string `false`. Jumpstart does not know about booleans. If you give it any other value (e.g. leave it blank), you'll end up with invalid json in the generated files.
 
-After creating a new project you can run the following commands:
+After creating a new project it's recommended you run the following command once:
 
-* `make build` -- compiles all .coffee files in src/ and outputs into lib/.
-* `make watch` -- watches src/ for changes, and compiles any changed .coffee file to lib/.
-* `make jumpstart` -- 
+`make jumpstart`
+
+This command
+
   * runs `npm install`, which will install the dev-dependencies (coffee-script and mocha)
   * creates a GitHub repo with the specified module name in the specified repos path (for your organization or for yourself)
   * initializes an empty git repository
@@ -41,8 +46,16 @@ After creating a new project you can run the following commands:
   * creates an empty .coffee file named after the module in both src/ and test/.
   * adds files, and commits with the commit-message you have chosen
   * pushes the repository to GitHub
-  
-Note that running `make jumpstart` afterwards is entirely optional. You could also decide to customize the generated Makefile before running the command.
+
+Running `make jumpstart` afterwards is entirely optional. You could also decide to customize the generated Makefile before running the command.
+
+During development, you can make use of the following commands.
+
+  * `make build` -- compiles all .coffee files in src/ and outputs into lib/.
+  * `make watch` -- watches src/ for changes, and compiles any changed .coffee file to lib/.
+  * `make test` -- runs local 
+
+These commands require the dev dependencies to be installed. You can do so with `npm install`.  
 
 See also the [Jumpstart documentation](https://github.com/meryn/jumpstart).
 
