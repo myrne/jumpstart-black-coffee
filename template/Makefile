@@ -9,6 +9,7 @@ test:
 	node_modules/.bin/mocha
 
 jumpstart:
+	npm install
 	curl -u '---github-username---' https://api.github.com---github-repos-path--- -d '{"name":"---module-name---", "description":"---module-description---","private":---module-is-private---}'
 	touch src/---module-name---.coffee
 	touch test/---module-name---.coffee
