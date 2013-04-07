@@ -11,6 +11,7 @@ test:
 jumpstart:
 	curl -u '---github-username---' https://api.github.com---github-repos-path--- -d '{"name":"---module-name---", "description":"---module-description---","private":---module-is-private---}'
 	touch src/---module-name---.coffee
+	touch test/---module-name---.coffee
 	git init
 	git remote add origin git@github.com:---github-ownername---/---module-name---
 	git add *
