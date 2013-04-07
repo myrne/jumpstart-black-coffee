@@ -1,6 +1,6 @@
 # jumpstart-black-coffee 
 
-Jumpstart template for an npm module written in CoffeeScript, but published as Javascript (including source maps). It also includes handy default settings for Textmate 2.
+[Jumpstart](https://github.com/meryn/jumpstart) template for an npm module written in CoffeeScript, but published as Javascript (including source maps). It also includes handy default settings for Textmate 2.
 
 This template assumes
 
@@ -43,6 +43,8 @@ After creating a new project you can run the following commands:
   * pushes the repository to GitHub
   
 Note that running `make jumpstart` afterwards is entirely optional. You could also decide to customize the generated Makefile before running the command.
+
+See also the [Jumpstart documentation](https://github.com/meryn/jumpstart).
 
 ## License
 
