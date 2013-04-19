@@ -2,6 +2,7 @@
   "name": "jumpstart-black-coffee",
   "version": "0.1.0",
   "description": "Jumpstart template for a plain CoffeeScript npm module",
+  "license": "MIT",  
   "preferGlobal": true,
   "main": "index.js",
   "bugs": "https://github.com/meryn/jumpstart-black-coffee/issues",
