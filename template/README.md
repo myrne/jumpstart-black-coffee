@@ -1,4 +1,4 @@
-# ---module-name---
+# ---module-name--- [![Build Status](https://travis-ci.org/---github-ownername---/---module-name---.png?branch=master)](https://travis-ci.org/---github-ownername---/---module-name---) [![Dependency Status](https://david-dm.org/---github-ownername---/---module-name---.png)](https://david-dm.org/---github-ownername---/---module-name---)
 
 ---module-description---
 
