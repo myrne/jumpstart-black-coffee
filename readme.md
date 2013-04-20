@@ -1,13 +1,15 @@
 # jumpstart-black-coffee 
 
-[Jumpstart](https://github.com/meryn/jumpstart) template for an npm module written in CoffeeScript, but published as Javascript (including source maps). It also includes handy default settings for Textmate 2.
+[Jumpstart](https://github.com/meryn/jumpstart) template for an open source npm module written in CoffeeScript, but published as Javascript (including source maps). It also includes handy default settings for Textmate 2.
 
-This template assumes
+This template assumes:
 
-* you're using GitHub
-* you want the GitHub repository name to be the same as the npm module name
-* you want to use [Mocha](http://visionmedia.github.io/mocha/) for writing tests, or you don't mind having it available
+* you're using GitHub;
+* you want the GitHub repository name to be the same as the npm module name;
+* you want to use [Mocha](http://visionmedia.github.io/mocha/) for writing tests, or you don't mind having it available;
 * you want to release your code under the [MIT License](http://opensource.org/licenses/MIT).
+
+The generated README.md file also includes status badges for [Travis CI](https://travis-ci.org/) and [David DM](https://david-dm.org/). If you don't like these you could easily remove them though.
 
 If you don't like these assumptions, or any other choices made, you can easily customize the template by forking it and checking out locally.
 
