@@ -34,7 +34,7 @@ You will be asked to provide values for the placeholders inside the `black-coffe
 Notes on proper placeholders values:
 
 * `github-repos-path` -- either `/user/repos` or `/orgs/[orgname]/repos` (without the brackets)
-* `github-owner-name` -- either the same as `github-username`, or your github organization name.
+* `github-ownername` -- either the same as `github-username`, or your github organization name.
 * `module-is-private` -- either the string `true` or the string `false`. Jumpstart does not know about booleans. If you give it any other value (e.g. leave it blank), you'll end up with invalid json in the generated files.
 
 After creating a new project it's recommended you run the following command once:
