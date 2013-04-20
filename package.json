@@ -1,7 +1,7 @@
 {
   "name": "jumpstart-black-coffee",
   "version": "0.1.1",
-  "description": "Jumpstart template for a plain CoffeeScript npm module",
+  "description": "Jumpstart template for a nice CoffeeScript npm module",
   "license": "MIT",
   "preferGlobal": true,
   "main": "index.js",
@@ -16,9 +16,13 @@
   },
   "keywords": [
     "coffeescript",
+    "coffee-script",
     "boilerplate",
     "template",
-    "jumpstart"
+    "jumpstart",
+    "travis-ci",
+    "david-dm",
+    "mocha"
   ],
   "author": "Meryn Stol <merynstol@gmail.com>",
   "readmeFilename": "readme.md",
