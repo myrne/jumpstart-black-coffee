@@ -10,12 +10,12 @@ test:
 	node_modules/.bin/mocha
 
 jumpstart:
-	npm install
 	curl -u '---github-username---' https://api.github.com---github-repos-path--- -d '{"name":"---module-name---", "description":"---module-description---","private":---module-is-private---}'
 	mkdir -p src
 	touch src/---module-name---.coffee
 	mkdir -p test
 	touch test/---module-name---.coffee
+	npm install
 	git init
 	git remote add origin git@github.com:---github-ownername---/---module-name---
 	git add .
