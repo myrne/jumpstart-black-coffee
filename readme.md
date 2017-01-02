@@ -6,7 +6,7 @@ This template assumes:
 
 * you're using GitHub;
 * you want the GitHub repository name to be the same as the npm module name;
-* you want to use [Mocha](http://visionmedia.github.io/mocha/) for writing tests, or you don't mind having it available;
+* you want to use [Mocha](http://mochajs.org/) for writing tests, or you don't mind having it available;
 * you want to release your code under the [MIT License](http://opensource.org/licenses/MIT).
 
 The generated README.md file also includes status badges for [Travis CI](https://travis-ci.org/) and [David DM](https://david-dm.org/). If you don't like these you could easily remove them though.
