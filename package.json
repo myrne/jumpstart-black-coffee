@@ -5,14 +5,14 @@
   "license": "MIT",
   "preferGlobal": true,
   "main": "index.js",
-  "bugs": "https://github.com/meryn/jumpstart-black-coffee/issues",
-  "homepage": "https://github.com/meryn/jumpstart-black-coffee",
+  "bugs": "https://github.com/braveg1rl/jumpstart-black-coffee/issues",
+  "homepage": "https://github.com/braveg1rl/jumpstart-black-coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/meryn/jumpstart-black-coffee.git"
+    "url": "git://github.com/braveg1rl/jumpstart-black-coffee.git"
   },
   "keywords": [
     "coffeescript",
@@ -24,7 +24,7 @@
     "david-dm",
     "mocha"
   ],
-  "author": "Meryn Stol <merynstol@gmail.com>",
+  "author": "Braveg1rl <braveg1rl@outlook.com>",
   "readmeFilename": "readme.md",
   "gitHead": "d67e529a687e00a71ca739e2004ea86c4165ef4e"
 }
