@@ -14,8 +14,8 @@
   "private": ---module-is-private---,
   "dependencies": {},
   "devDependencies": {
-    "coffee-script": "~1.6.2",
-    "mocha": "1.x.x"
+    "coffee-script": "^1.12.2",
+    "mocha": "^3.2.x"
   },
   "optionalDependencies": {},
   "engines": {
