@@ -19,8 +19,7 @@
   },
   "optionalDependencies": {},
   "engines": {
-    "node": "---node-version---",
-    "npm": "---npm-version---"
+    "node": "---node-version---"
   },
   "main": "lib/---module-name---.js",
   "scripts": {
