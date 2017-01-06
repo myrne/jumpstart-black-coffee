@@ -35,12 +35,14 @@ You will be asked to provide values for the placeholders inside the `black-coffe
 
 Notes on proper placeholders values:
 
-* `github-ownername` -- either the same as `github-username`, or your github organization name.
+* `github-ownername` -- will be used for the github repository url. Set it either to the same as `github-username`, or to the name of a github organization you are a member of.
 * `module-is-private` -- either the string `true` or the string `false`. Jumpstart does not know about booleans. If you give it any other value (e.g. leave it blank), you'll end up with invalid json in the generated files.
 
 After creating a new project it's recommended you run the following command once:
 
 ### Initalizing the new project
+
+Go to your newly created project directory.
 
 ```
 make jumpstart
@@ -49,7 +51,7 @@ make jumpstart
 This command
 
   * runs `npm install`, which will install the dev-dependencies (coffee-script and mocha)
-  * creates an empty .coffee file named after the module in both src/ and test/.
+  * creates an empty `.coffee` file named after the module in both `src/` and `test/`.
 
 Running `make jumpstart` afterwards is optional.
 
