@@ -50,14 +50,9 @@ make jumpstart
 This command
 
   * runs `npm install`, which will install the dev-dependencies (coffee-script and mocha)
-  * creates a GitHub repo with the specified module name in the specified repos path (for your organization or for yourself)
-  * initializes an empty git repository
-  * sets the GitHub repository as the local repository's origin
   * creates an empty .coffee file named after the module in both src/ and test/.
-  * adds files, and commits with the commit-message you have chosen
-  * pushes the repository to GitHub
 
-Running `make jumpstart` afterwards is entirely optional. You could also decide to customize the generated Makefile before running the command.
+Running `make jumpstart` afterwards is optional.
 
 ### Conveniences during development
 
