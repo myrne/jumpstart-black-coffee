@@ -1,14 +1,10 @@
 {
   "name": "---module-name---",
-  "description": "---module-description---",
-  "keywords": [],
   "version": "0.1.0",
   "author": "---author-name--- <---author-email--->",
+  "description": "---module-description---",
+  "keywords": [],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/---github-ownername---/---module-name---.git"
-  },
   "private": ---module-is-private---,
   "dependencies": {},
   "devDependencies": {
@@ -24,5 +20,9 @@
     "prepublish": "npm test",
     "pretest": "make build",
     "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/---github-ownername---/---module-name---.git"
   }
 }
