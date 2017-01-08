@@ -17,9 +17,12 @@
   },
   "main": "lib/---module-name---.js",
   "scripts": {
+    "build": "mkdir -p lib && rm -rf lib/* && node_modules/.bin/coffee --compile -m --output lib/ src/",
+    "jumpstart": "mkdir -p src && touch src/---module-name---.coffee && mkdir -p test && touch test/---module-name---.coffee && npm install",
     "prepublish": "npm test",
-    "pretest": "make build",
-    "test": "make test"
+    "pretest": "npm run build",
+    "test": "node_modules/.bin/mocha",
+    "watch": "node_modules/.bin/coffee --watch --compile --output lib/ src/"
   },
   "repository": {
     "type": "git",
