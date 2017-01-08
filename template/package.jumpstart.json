@@ -9,7 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "coffee-script": "^1.12.2",
-    "mocha": "^3.2.x"
+    "mocha": "^3.2.x",
     "pre-commit": "^1.2.2"
   },
   "optionalDependencies": {},
