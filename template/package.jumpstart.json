@@ -21,6 +21,7 @@
     "jumpstart": "mkdir -p src && touch src/---module-name---.coffee && mkdir -p test && touch test/---module-name---.coffee && npm install",
     "prepublish": "npm test",
     "pretest": "npm run build",
+    "reinstall": "rm -rf node_modules/ && npm install",
     "test": "node_modules/.bin/mocha",
     "watch": "node_modules/.bin/coffee --watch --compile --output lib/ src/"
   },
