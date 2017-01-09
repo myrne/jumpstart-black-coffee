@@ -4,6 +4,9 @@
 
 ## Usage
 
+```javascript
+require("---module-name---")
+```
 
 ## License
 
