@@ -1,6 +1,6 @@
 # jumpstart-black-coffee
 
-[Jumpstart](https://github.com/braveg1rl/jumpstart) template for an open source npm module written in CoffeeScript, but published as Javascript (including source maps). It also includes handy default settings for Textmate 2.
+[Jumpstart](https://github.com/braveg1rl/jumpstart) template for an open source JavaScript module that's written in CoffeeScript.
 
 This template assumes:
 
@@ -9,9 +9,9 @@ This template assumes:
 * you want to use [Mocha](http://mochajs.org/) for writing tests, or you don't mind having it available;
 * you want to release your code under the [MIT License](http://opensource.org/licenses/MIT).
 
-The generated README.md file also includes status badges for [Travis CI](https://travis-ci.org/) and [David DM](https://david-dm.org/). If you don't like these you could easily remove them though.
+There are configuration files for [Textmate 2](https://macromates.com/) and [Travis CI](https://travis-ci.org/).
 
-If you don't like these assumptions, or any other choices made, you can easily customize the template by forking it and checking out locally.
+The generated README.md file includes status badges for [Travis CI](https://travis-ci.org/) and [David DM](https://david-dm.org/).
 
 ## Installation
 
@@ -22,6 +22,7 @@ npm install jumpstart-black-coffee
 
 ## Configuration
 Jumpstart looks for a `.jumpstart.json` file inside your current working directory - or if not found, in your home directory - for global values for the various placeholders.
+See [Jumpstart documentation](https://github.com/braveg1rl/jumpstart) for
 
 ## Usage
 
@@ -40,32 +41,33 @@ Notes on proper placeholders values:
 
 After creating a new project it's recommended you run the following command once:
 
-### Initalizing the new project
+### Initializing the new project
 
 Go to your newly created project directory.
 
 ```
-make jumpstart
+npm run jumpstart
 ```
 
 This command
 
-  * runs `npm install`, which will install the dev-dependencies (coffee-script and mocha)
+  * runs `npm install`, which will install the dev-dependencies (`coffee-script`, `mocha` and `pre-commit`)
   * creates an empty `.coffee` file named after the module in both `src/` and `test/`.
 
-Running `make jumpstart` afterwards is optional.
+Running `npm run jumpstart` afterwards is optional.
 
 ### Conveniences during development
 
 During development, you can make use of the following commands.
 
-  * `make build` -- compiles all .coffee files in src/ and outputs into lib/.
-  * `make watch` -- watches src/ for changes, and compiles any changed .coffee file to lib/.
-  * `make test` -- runs mocha tests
+  * `npm run build` -- compiles all .coffee files in src/ and outputs into lib/.
+  * `npm run watch` -- let `coffee` watch src/ for changes, and compile any changed .coffee file to lib/.
+  * `npm test` -- runs `npm run build`, and mocha tests afterwards
 
 These commands require the dev-dependencies to be installed. You can do so with `npm install`.
 
-When you do `npm publish`, the CoffeeScript files will be compiled and all tests will be run, ensuring that the JavaScript code you're publishing is both fresh and working (in so far they're covered by tests).
+When you do `npm publish`, `npm test` will be run first, ensuring that the JavaScript code you're publishing is both fresh and working (in so far it's covered by tests).
+When you attempt to make a commit with git, `npm test` will also be run first.
 
 See also the [Jumpstart documentation](https://github.com/braveg1rl/jumpstart).
 
