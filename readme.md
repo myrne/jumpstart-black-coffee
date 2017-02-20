@@ -1,5 +1,7 @@
 # jumpstart-black-coffee
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/jumpstart-black-coffee.svg)](https://greenkeeper.io/)
+
 [Jumpstart](https://github.com/braveg1rl/jumpstart) template for an open source JavaScript module that's written in CoffeeScript.
 
 This template assumes:
